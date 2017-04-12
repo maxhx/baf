@@ -2,9 +2,8 @@ package com.m.baf.core.util;
 
 /**
  * @author maihx
- * 2017年4月11日
- * 	
- *  
+ * @createDate 2017年4月12日
+ * @describe  	
  */
 public final class Dates {
 	

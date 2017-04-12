@@ -14,7 +14,7 @@ public class StrTestCase {
 	
 	@Test
 	public void tst1(){
-		System.out.println(Strings.sBlank("123"));
+		System.out.println(Strings.sBlank("12355"));
 	}
 	
 	
