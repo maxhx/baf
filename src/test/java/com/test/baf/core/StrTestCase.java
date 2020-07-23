@@ -17,6 +17,9 @@ public class StrTestCase {
 		System.out.println(Strings.sBlank("12355"));
 	}
 	
-	
+	@Test
+	public void tst2() {
+		System.out.println("hello world!");
+	}
 
 }

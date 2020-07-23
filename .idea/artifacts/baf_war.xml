@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="baf:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>baf</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="baf.war">
+      <element id="artifact" artifact-name="baf:war exploded" />
+    </root>
+  </artifact>
+</component>
