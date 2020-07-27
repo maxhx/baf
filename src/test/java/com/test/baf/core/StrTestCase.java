@@ -22,4 +22,9 @@ public class StrTestCase {
 		System.out.println("hello world!");
 	}
 
+	@Test
+	public void tst3(){
+		System.out.println("2020年7月27日打印");
+	}
+
 }
