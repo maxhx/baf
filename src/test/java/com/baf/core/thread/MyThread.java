@@ -1,4 +1,4 @@
-package com.baf.core;
+package com.baf.core.thread;
 
 public class MyThread extends Thread{
 
@@ -18,5 +18,12 @@ public class MyThread extends Thread{
             System.out.print(mt.getName());
             mt.run();
         }
+
+        new Thread(){
+            public void run(){
+                System.out.println(this.getThreadGroup().getName());
+                System.out.println("12345");
+            }
+        }.start();
     }
 }

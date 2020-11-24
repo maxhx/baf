@@ -1,4 +1,4 @@
-package com.baf.core;
+package com.baf.core.thread;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
@@ -16,7 +16,6 @@ public class MyCallable implements Callable {
         FutureTask<MyCallable> futureTask = new FutureTask<MyCallable>(mc);
         Thread th = new Thread(futureTask);
         th.start();
-        System.out.println(futureTask.get());
         System.out.println(futureTask.get());
     }
 }

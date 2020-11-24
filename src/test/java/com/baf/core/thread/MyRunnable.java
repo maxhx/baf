@@ -1,4 +1,4 @@
-package com.baf.core;
+package com.baf.core.thread;
 
 public class MyRunnable implements Runnable{
 
